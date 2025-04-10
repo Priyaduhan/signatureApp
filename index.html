@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="top-section">
+        <div class="colorpicker top">
+          <h3>Text Color</h3>
+          <input type="color" id="color-pick" />
+        </div>
+        <div class="background top">
+          <h3>Background</h3>
+          <input type="color" name="" id="bg-color" />
+        </div>
+        <div class="fontSize top">
+          <h3>Font Size</h3>
+          <select name="fs" id="font-size">
+            <option value="5">5px</option>
+            <option value="10">10px</option>
+            <option value="15">15px</option>
+            <option value="20">20px</option>
+            <option value="25">25px</option>
+          </select>
+        </div>
+      </div>
+      <canvas class="canva"></canvas>
+      <div class="bottom-section">
+        <button type="button" class="btn btn-danger" id="clear">Clear</button>
+        <button type="button" class="btn btn-success" id="save">
+          Save & Download
+        </button>
+        <button type="button" class="btn btn-warning" id="get">
+          Retrieve & Signature
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
