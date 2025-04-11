@@ -1,0 +1,2784 @@
+{
+	"tldrawFileFormatVersion": 1,
+	"schema": {
+		"schemaVersion": 2,
+		"sequences": {
+			"com.tldraw.store": 4,
+			"com.tldraw.asset": 1,
+			"com.tldraw.camera": 1,
+			"com.tldraw.document": 2,
+			"com.tldraw.instance": 25,
+			"com.tldraw.instance_page_state": 5,
+			"com.tldraw.page": 1,
+			"com.tldraw.instance_presence": 6,
+			"com.tldraw.pointer": 1,
+			"com.tldraw.shape": 4,
+			"com.tldraw.asset.bookmark": 2,
+			"com.tldraw.asset.image": 5,
+			"com.tldraw.asset.video": 5,
+			"com.tldraw.shape.group": 0,
+			"com.tldraw.shape.text": 3,
+			"com.tldraw.shape.bookmark": 2,
+			"com.tldraw.shape.draw": 2,
+			"com.tldraw.shape.geo": 10,
+			"com.tldraw.shape.note": 9,
+			"com.tldraw.shape.line": 5,
+			"com.tldraw.shape.frame": 0,
+			"com.tldraw.shape.arrow": 5,
+			"com.tldraw.shape.highlight": 1,
+			"com.tldraw.shape.embed": 4,
+			"com.tldraw.shape.image": 4,
+			"com.tldraw.shape.video": 2,
+			"com.tldraw.binding.arrow": 0
+		}
+	},
+	"records": [
+		{
+			"gridSize": 10,
+			"name": "",
+			"meta": {},
+			"id": "document:document",
+			"typeName": "document"
+		},
+		{
+			"meta": {},
+			"id": "page:page",
+			"name": "Page 1",
+			"index": "a1",
+			"typeName": "page"
+		},
+		{
+			"id": "pointer:pointer",
+			"typeName": "pointer",
+			"x": 2234.8727786563722,
+			"y": 831.2539886357144,
+			"lastActivityTimestamp": 1741431962489,
+			"meta": {}
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {
+				"tldraw:color": "red",
+				"tldraw:size": "s",
+				"tldraw:geo": "rectangle",
+				"tldraw:font": "draw",
+				"tldraw:dash": "solid",
+				"tldraw:textAlign": "start"
+			},
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "default",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 867.5925903320312,
+				"h": 523.1481323242188
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"isFocused": true,
+			"devicePixelRatio": 2.1600000858306885,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": false,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
+		},
+		{
+			"editingShapeId": "shape:2sIZMcp3BWnbTpJ09wM_f",
+			"croppingShapeId": null,
+			"selectedShapeIds": [
+				"shape:2sIZMcp3BWnbTpJ09wM_f"
+			],
+			"hoveredShapeId": "shape:2sIZMcp3BWnbTpJ09wM_f",
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": -1074.5906975545677,
+			"y": -679.9530146305583,
+			"z": 0.37579162782393266,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
+		},
+		{
+			"x": 87.87615966796875,
+			"y": -2.3943828587179894,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:7r2etYFQkU-KImubihL4P",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "m",
+				"w": 983.3567504882812,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": ">GEt context()-->"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "The "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "getContext()"
+								},
+								{
+									"type": "text",
+									"text": " method returns an object with tools (methods) for drawing."
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a1",
+			"typeName": "shape"
+		},
+		{
+			"x": 43.720116166606175,
+			"y": 446.4472222805954,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:JjvvAZBvLBrcxWCgE9fdD",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 1009.724224679529,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": ">StrokeStyle()-->"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "                       In JavaScript's Canvas API, "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "strokeStyle"
+								},
+								{
+									"type": "text",
+									"text": " is a property of the 2D rendering context that determines the color, gradient, or pattern used for strokes (outlines) when drawing shapes. "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": ">isDrawing()-->"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "                   his is a boolean flag that tracks whether the user is currently    drawing."
+								}
+							]
+						},
+						{
+							"type": "bulletList",
+							"content": [
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "code"
+														}
+													],
+													"text": "true"
+												},
+												{
+													"type": "text",
+													"text": " when the user is actively drawing (mouse button is pressed down)"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "code"
+														}
+													],
+													"text": "false"
+												},
+												{
+													"type": "text",
+													"text": " when the user is not drawing (mouse button is released)"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "It acts as a state tracker to determine whether to draw or not as the mouse moves."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": ">lastX & lastY-->"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "                   These variables store the previous mouse coordinates:"
+								}
+							]
+						},
+						{
+							"type": "bulletList",
+							"content": [
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "code"
+														}
+													],
+													"text": "lastX"
+												},
+												{
+													"type": "text",
+													"text": " stores the last X-coordinate of the mouse"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "code"
+														}
+													],
+													"text": "lastY"
+												},
+												{
+													"type": "text",
+													"text": " stores the last Y-coordinate of the mouse"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "These are essential for drawing continuous lines since drawing on canvas involves connecting points."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": ">>offsetX & offsetY -->"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "                               "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "offsetX"
+								},
+								{
+									"type": "text",
+									"text": " and "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "offsetY"
+								},
+								{
+									"type": "text",
+									"text": " are properties of mouse events in JavaScript that provide the coordinates of the mouse pointer relative to the target element's padding edge. These properties are particularly useful when working with canvas elements or other interactive components."
+								}
+							]
+						},
+						{
+							"type": "heading",
+							"attrs": {
+								"dir": "auto",
+								"level": 2
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "What offsetX and offsetY represent"
+								}
+							]
+						},
+						{
+							"type": "bulletList",
+							"content": [
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														}
+													],
+													"text": "offsetX"
+												},
+												{
+													"type": "text",
+													"text": ": The horizontal coordinate (in pixels) of the mouse pointer relative to the padding edge of the target element"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														}
+													],
+													"text": "offsetY"
+												},
+												{
+													"type": "text",
+													"text": ": The vertical coordinate (in pixels) of the mouse pointer relative to the padding edge of the target element"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a28cv",
+			"typeName": "shape"
+		},
+		{
+			"x": 66.46463993702788,
+			"y": 68.2485927595423,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:iMk_-kDJl_XLeKqDU1Mvj",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "l",
+				"w": 1007.3597714369322,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "heading",
+							"attrs": {
+								"dir": "auto",
+								"level": 2
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Paths"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "The common way to draw on the canvas is to:"
+								}
+							]
+						},
+						{
+							"type": "orderedList",
+							"attrs": {
+								"start": 1
+							},
+							"content": [
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Begin a Path - beginPath()"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Move to a Point - moveTo()"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Draw in the Path - lineTo()"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Draw the Path - stroke()"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a38w4",
+			"typeName": "shape"
+		},
+		{
+			"x": 45.60933731630886,
+			"y": 1465.9283717430635,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:rrYvQP1gJC2U8k9wfXIUy",
+			"type": "text",
+			"props": {
+				"color": "light-blue",
+				"size": "l",
+				"w": 973.6128545901374,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Comparison with other coordinate properties::"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Property: offsetX/offsetY Reference Point: Target element padding edge (top-left) Includes: Target element only"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Property: clientX/clientY Reference Point: Browser viewport (top-left) Includes: Viewport position (excludes scrolling)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Property: pageX/pageY Reference Point: Document (top-left) Includes: Full document position (includes scrolling)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Property: screenX/screenY Reference Point: Physical screen (top-left) Includes: Position on screen"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "like."
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a49tA",
+			"typeName": "shape"
+		},
+		{
+			"x": 40.73925119485557,
+			"y": 2133.784289840307,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:x1y3U_EcG5v0hJ3WFqNiY",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "l",
+				"w": 927.902275293674,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "The main problem is that your canvas doesn't have explicit width and height attributes in the HTML, so it's not using the CSS dimensions for drawing. This causes a mismatch between where you click and where the drawing appears."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "so we add --> canvas.width=800;"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "and canvas.height=600;"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a54qs",
+			"typeName": "shape"
+		},
+		{
+			"x": 1187.7007770735152,
+			"y": -35.09387477122925,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:udPJxfYZmbemdLPOLgrOB",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "l",
+				"w": 725.8599567693475,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": ">Save & Download Functionality in Canvas-->"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a676T",
+			"typeName": "shape"
+		},
+		{
+			"x": 1105.1588778111054,
+			"y": -57.610301934290476,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:KMA_jrWfKATw581NUwmA-",
+			"type": "line",
+			"props": {
+				"dash": "solid",
+				"size": "l",
+				"color": "black",
+				"spline": "line",
+				"points": {
+					"a1": {
+						"id": "a1",
+						"index": "a1",
+						"x": 0,
+						"y": 0
+					},
+					"a22FO": {
+						"id": "a22FO",
+						"index": "a22FO",
+						"x": 7.622824176385166,
+						"y": 2591.0578981611357
+					}
+				},
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a75OH",
+			"typeName": "shape"
+		},
+		{
+			"x": 1192.8596457774158,
+			"y": 80.94199255546854,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:hk-9V6-Hf9e-sUbbNldU4",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "l",
+				"w": 672.8850359240953,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1.0373040066059476,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "heading",
+							"attrs": {
+								"dir": "auto",
+								"level": 3
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": "Flow of the Code"
+								}
+							]
+						},
+						{
+							"type": "orderedList",
+							"attrs": {
+								"start": 1
+							},
+							"content": [
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														}
+													],
+													"text": "Convert the canvas drawing into an image"
+												},
+												{
+													"type": "text",
+													"text": " using "
+												},
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "code"
+														}
+													],
+													"text": "toDataURL()"
+												},
+												{
+													"type": "text",
+													"text": "."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														}
+													],
+													"text": "Create a temporary "
+												},
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														},
+														{
+															"type": "code"
+														}
+													],
+													"text": "<a>"
+												},
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														}
+													],
+													"text": " element"
+												},
+												{
+													"type": "text",
+													"text": " and set:"
+												}
+											]
+										},
+										{
+											"type": "bulletList",
+											"content": [
+												{
+													"type": "listItem",
+													"content": [
+														{
+															"type": "paragraph",
+															"attrs": {
+																"dir": "auto"
+															},
+															"content": [
+																{
+																	"type": "text",
+																	"marks": [
+																		{
+																			"type": "code"
+																		}
+																	],
+																	"text": "href"
+																},
+																{
+																	"type": "text",
+																	"text": " → Assign the Base64 image."
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "listItem",
+													"content": [
+														{
+															"type": "paragraph",
+															"attrs": {
+																"dir": "auto"
+															},
+															"content": [
+																{
+																	"type": "text",
+																	"marks": [
+																		{
+																			"type": "code"
+																		}
+																	],
+																	"text": "download"
+																},
+																{
+																	"type": "text",
+																	"text": " → Set a filename ("
+																},
+																{
+																	"type": "text",
+																	"marks": [
+																		{
+																			"type": "code"
+																		}
+																	],
+																	"text": "signature.png"
+																},
+																{
+																	"type": "text",
+																	"text": ")."
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														}
+													],
+													"text": "Simulate a click"
+												},
+												{
+													"type": "text",
+													"text": " on the "
+												},
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "code"
+														}
+													],
+													"text": "<a>"
+												},
+												{
+													"type": "text",
+													"text": " tag to trigger the download."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														}
+													],
+													"text": "Save the image to "
+												},
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														},
+														{
+															"type": "code"
+														}
+													],
+													"text": "localStorage"
+												},
+												{
+													"type": "text",
+													"text": " for retrieval."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														}
+													],
+													"text": "Retrieve the image from "
+												},
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														},
+														{
+															"type": "code"
+														}
+													],
+													"text": "localStorage"
+												},
+												{
+													"type": "text",
+													"text": " when needed."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														}
+													],
+													"text": "Draw the retrieved image back"
+												},
+												{
+													"type": "text",
+													"text": " onto the canvas using "
+												},
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "code"
+														}
+													],
+													"text": "drawImage()"
+												},
+												{
+													"type": "text",
+													"text": "."
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a87ca",
+			"typeName": "shape"
+		},
+		{
+			"x": 1178.076008508509,
+			"y": 1066.5157448127545,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:vcTvaQJLjpyYC6zG6fx_Y",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "l",
+				"w": 711.0760615168888,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "highlight"
+										},
+										{
+											"type": "bold"
+										}
+									],
+									"text": "toDataURL(type, quality) method"
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "-"
+								}
+							]
+						},
+						{
+							"type": "bulletList",
+							"content": [
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Converts the canvas content into a "
+												},
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														}
+													],
+													"text": "Base64-encoded"
+												},
+												{
+													"type": "text",
+													"text": " image."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														}
+													],
+													"text": "Parameters:"
+												},
+												{
+													"type": "text",
+													"text": " "
+												}
+											]
+										},
+										{
+											"type": "bulletList",
+											"content": [
+												{
+													"type": "listItem",
+													"content": [
+														{
+															"type": "paragraph",
+															"attrs": {
+																"dir": "auto"
+															},
+															"content": [
+																{
+																	"type": "text",
+																	"marks": [
+																		{
+																			"type": "code"
+																		}
+																	],
+																	"text": "\"image/png\""
+																},
+																{
+																	"type": "text",
+																	"text": " (default) – Returns PNG format."
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "listItem",
+													"content": [
+														{
+															"type": "paragraph",
+															"attrs": {
+																"dir": "auto"
+															},
+															"content": [
+																{
+																	"type": "text",
+																	"marks": [
+																		{
+																			"type": "code"
+																		}
+																	],
+																	"text": "\"image/jpeg\""
+																},
+																{
+																	"type": "text",
+																	"text": " – Returns JPEG format."
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "listItem",
+													"content": [
+														{
+															"type": "paragraph",
+															"attrs": {
+																"dir": "auto"
+															},
+															"content": [
+																{
+																	"type": "text",
+																	"marks": [
+																		{
+																			"type": "code"
+																		}
+																	],
+																	"text": "\"image/webp\""
+																},
+																{
+																	"type": "text",
+																	"text": " – Returns WebP format (modern browsers)."
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "listItem",
+													"content": [
+														{
+															"type": "paragraph",
+															"attrs": {
+																"dir": "auto"
+															},
+															"content": [
+																{
+																	"type": "text",
+																	"marks": [
+																		{
+																			"type": "code"
+																		}
+																	],
+																	"text": "quality"
+																},
+																{
+																	"type": "text",
+																	"text": " (optional, "
+																},
+																{
+																	"type": "text",
+																	"marks": [
+																		{
+																			"type": "code"
+																		}
+																	],
+																	"text": "0"
+																},
+																{
+																	"type": "text",
+																	"text": " to "
+																},
+																{
+																	"type": "text",
+																	"marks": [
+																		{
+																			"type": "code"
+																		}
+																	],
+																	"text": "1"
+																},
+																{
+																	"type": "text",
+																	"text": ") – Used for JPEG/WebP compression."
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "heading",
+											"attrs": {
+												"dir": "auto",
+												"level": 4
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "highlight"
+														},
+														{
+															"type": "bold"
+														}
+													],
+													"text": "createElement(\"a\")"
+												}
+											]
+										},
+										{
+											"type": "bulletList",
+											"content": [
+												{
+													"type": "listItem",
+													"content": [
+														{
+															"type": "paragraph",
+															"attrs": {
+																"dir": "auto"
+															},
+															"content": [
+																{
+																	"type": "text",
+																	"text": "Creates a new "
+																},
+																{
+																	"type": "text",
+																	"marks": [
+																		{
+																			"type": "code"
+																		}
+																	],
+																	"text": "<a>"
+																},
+																{
+																	"type": "text",
+																	"text": " (anchor) element dynamically in JavaScript."
+																}
+															]
+														},
+														{
+															"type": "heading",
+															"attrs": {
+																"dir": "auto",
+																"level": 4
+															},
+															"content": [
+																{
+																	"type": "text",
+																	"marks": [
+																		{
+																			"type": "highlight"
+																		},
+																		{
+																			"type": "bold"
+																		},
+																		{
+																			"type": "code"
+																		}
+																	],
+																	"text": "href"
+																},
+																{
+																	"type": "text",
+																	"marks": [
+																		{
+																			"type": "highlight"
+																		},
+																		{
+																			"type": "bold"
+																		}
+																	],
+																	"text": " Attribute"
+																}
+															]
+														},
+														{
+															"type": "bulletList",
+															"content": [
+																{
+																	"type": "listItem",
+																	"content": [
+																		{
+																			"type": "paragraph",
+																			"attrs": {
+																				"dir": "auto"
+																			},
+																			"content": [
+																				{
+																					"type": "text",
+																					"text": "Assigns the generated Base64 image to the "
+																				},
+																				{
+																					"type": "text",
+																					"marks": [
+																						{
+																							"type": "code"
+																						}
+																					],
+																					"text": "<a>"
+																				},
+																				{
+																					"type": "text",
+																					"text": " tag."
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"type": "listItem",
+																	"content": [
+																		{
+																			"type": "paragraph",
+																			"attrs": {
+																				"dir": "auto"
+																			}
+																		},
+																		{
+																			"type": "paragraph",
+																			"attrs": {
+																				"dir": "auto"
+																			},
+																			"content": [
+																				{
+																					"type": "text",
+																					"marks": [
+																						{
+																							"type": "highlight"
+																						},
+																						{
+																							"type": "bold"
+																						},
+																						{
+																							"type": "code"
+																						}
+																					],
+																					"text": "download Attribute"
+																				}
+																			]
+																		},
+																		{
+																			"type": "bulletList",
+																			"content": [
+																				{
+																					"type": "listItem",
+																					"content": [
+																						{
+																							"type": "paragraph",
+																							"attrs": {
+																								"dir": "auto"
+																							},
+																							"content": [
+																								{
+																									"type": "text",
+																									"text": "Allows direct downloading with a "
+																								},
+																								{
+																									"type": "text",
+																									"marks": [
+																										{
+																											"type": "bold"
+																										}
+																									],
+																									"text": "custom file name"
+																								},
+																								{
+																									"type": "text",
+																									"text": "."
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a925o",
+			"typeName": "shape"
+		},
+		{
+			"x": 1170.453143727736,
+			"y": 2244.0453376469095,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:IVa4EjSkt6gOQSmeDsACS",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "l",
+				"w": 686.4367098139837,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "heading",
+							"attrs": {
+								"dir": "auto",
+								"level": 4
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "highlight"
+										},
+										{
+											"type": "bold"
+										},
+										{
+											"type": "code"
+										}
+									],
+									"text": "click()"
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "highlight"
+										},
+										{
+											"type": "bold"
+										}
+									],
+									"text": " Method"
+								}
+							]
+						},
+						{
+							"type": "bulletList",
+							"content": [
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Simulates a click event to trigger the download."
+												}
+											]
+										},
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aAAif",
+			"typeName": "shape"
+		},
+		{
+			"x": 1960.760131399752,
+			"y": -98.26524017462744,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:2pMbmtvKkatoBcs1fzYEI",
+			"type": "line",
+			"props": {
+				"dash": "solid",
+				"size": "l",
+				"color": "black",
+				"spline": "line",
+				"points": {
+					"a1": {
+						"id": "a1",
+						"index": "a1",
+						"x": 0,
+						"y": 0
+					},
+					"a2BzX": {
+						"id": "a2BzX",
+						"index": "a2BzX",
+						"x": 3.926850363270205,
+						"y": 2561.4907500068266
+					}
+				},
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aB2AP",
+			"typeName": "shape"
+		},
+		{
+			"x": 2021.589077806649,
+			"y": 121.10767825366383,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:2sIZMcp3BWnbTpJ09wM_f",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "s",
+				"w": 573.0957731893989,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1.0330511244969047,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										},
+										{
+											"type": "code"
+										}
+									],
+									"text": "This JavaScript code creates functionality for a \"retrieve\" button that loads a previously saved signature from the browser's storage and displays it on a canvas."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										},
+										{
+											"type": "code"
+										}
+									],
+									"text": "Let's break it down:"
+								}
+							]
+						},
+						{
+							"type": "orderedList",
+							"attrs": {
+								"start": 1
+							},
+							"content": [
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														},
+														{
+															"type": "code"
+														}
+													],
+													"text": "retrieve.addEventListener(\"click\", () => { ... })"
+												}
+											]
+										},
+										{
+											"type": "bulletList",
+											"content": [
+												{
+													"type": "listItem",
+													"content": [
+														{
+															"type": "paragraph",
+															"attrs": {
+																"dir": "auto"
+															},
+															"content": [
+																{
+																	"type": "text",
+																	"marks": [
+																		{
+																			"type": "bold"
+																		},
+																		{
+																			"type": "code"
+																		}
+																	],
+																	"text": "This sets up a click event listener on an element named \"retrieve\" (likely a button)"
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "listItem",
+													"content": [
+														{
+															"type": "paragraph",
+															"attrs": {
+																"dir": "auto"
+															},
+															"content": [
+																{
+																	"type": "text",
+																	"marks": [
+																		{
+																			"type": "bold"
+																		},
+																		{
+																			"type": "code"
+																		}
+																	],
+																	"text": "When clicked, it runs all the code inside the curly braces"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														},
+														{
+															"type": "code"
+														}
+													],
+													"text": "let savedSign = localStorage.getItem(\"savedSignature\");"
+												}
+											]
+										},
+										{
+											"type": "bulletList",
+											"content": [
+												{
+													"type": "listItem",
+													"content": [
+														{
+															"type": "paragraph",
+															"attrs": {
+																"dir": "auto"
+															},
+															"content": [
+																{
+																	"type": "text",
+																	"marks": [
+																		{
+																			"type": "bold"
+																		},
+																		{
+																			"type": "code"
+																		}
+																	],
+																	"text": "localStorage is like a mini database in your browser that saves information even after you close the page"
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "listItem",
+													"content": [
+														{
+															"type": "paragraph",
+															"attrs": {
+																"dir": "auto"
+															},
+															"content": [
+																{
+																	"type": "text",
+																	"marks": [
+																		{
+																			"type": "bold"
+																		},
+																		{
+																			"type": "code"
+																		}
+																	],
+																	"text": "getItem(\"savedSignature\") looks for data saved with the name \"savedSignature\""
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "listItem",
+													"content": [
+														{
+															"type": "paragraph",
+															"attrs": {
+																"dir": "auto"
+															},
+															"content": [
+																{
+																	"type": "text",
+																	"marks": [
+																		{
+																			"type": "bold"
+																		},
+																		{
+																			"type": "code"
+																		}
+																	],
+																	"text": "The result is stored in a variable called savedSign"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														},
+														{
+															"type": "code"
+														}
+													],
+													"text": "if (savedSign) { ... } else { ... }"
+												}
+											]
+										},
+										{
+											"type": "bulletList",
+											"content": [
+												{
+													"type": "listItem",
+													"content": [
+														{
+															"type": "paragraph",
+															"attrs": {
+																"dir": "auto"
+															},
+															"content": [
+																{
+																	"type": "text",
+																	"marks": [
+																		{
+																			"type": "bold"
+																		},
+																		{
+																			"type": "code"
+																		}
+																	],
+																	"text": "This checks if savedSign actually contains data"
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "listItem",
+													"content": [
+														{
+															"type": "paragraph",
+															"attrs": {
+																"dir": "auto"
+															},
+															"content": [
+																{
+																	"type": "text",
+																	"marks": [
+																		{
+																			"type": "bold"
+																		},
+																		{
+																			"type": "code"
+																		}
+																	],
+																	"text": "If it does, run the code to display the signature"
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "listItem",
+													"content": [
+														{
+															"type": "paragraph",
+															"attrs": {
+																"dir": "auto"
+															},
+															"content": [
+																{
+																	"type": "text",
+																	"marks": [
+																		{
+																			"type": "bold"
+																		},
+																		{
+																			"type": "code"
+																		}
+																	],
+																	"text": "If not, show an alert message"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														},
+														{
+															"type": "code"
+														}
+													],
+													"text": "Inside the \"if\" block (when a saved signature exists):"
+												}
+											]
+										},
+										{
+											"type": "bulletList",
+											"content": [
+												{
+													"type": "listItem",
+													"content": [
+														{
+															"type": "paragraph",
+															"attrs": {
+																"dir": "auto"
+															},
+															"content": [
+																{
+																	"type": "text",
+																	"marks": [
+																		{
+																			"type": "bold"
+																		},
+																		{
+																			"type": "code"
+																		}
+																	],
+																	"text": "let img = new Image(); creates a new image object in memory (same as document.createElement(\"img\"))"
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "listItem",
+													"content": [
+														{
+															"type": "paragraph",
+															"attrs": {
+																"dir": "auto"
+															},
+															"content": [
+																{
+																	"type": "text",
+																	"marks": [
+																		{
+																			"type": "bold"
+																		},
+																		{
+																			"type": "code"
+																		}
+																	],
+																	"text": "This image isn't visible on the page yet - it's just in memory"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														},
+														{
+															"type": "code"
+														}
+													],
+													"text": "The important part: img.onload = function() { ctx.drawImage(img, 0, 0); };"
+												}
+											]
+										},
+										{
+											"type": "bulletList",
+											"content": [
+												{
+													"type": "listItem",
+													"content": [
+														{
+															"type": "paragraph",
+															"attrs": {
+																"dir": "auto"
+															},
+															"content": [
+																{
+																	"type": "text",
+																	"marks": [
+																		{
+																			"type": "bold"
+																		},
+																		{
+																			"type": "code"
+																		}
+																	],
+																	"text": "This sets up what happens AFTER the image loads"
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "listItem",
+													"content": [
+														{
+															"type": "paragraph",
+															"attrs": {
+																"dir": "auto"
+															},
+															"content": [
+																{
+																	"type": "text",
+																	"marks": [
+																		{
+																			"type": "bold"
+																		},
+																		{
+																			"type": "code"
+																		}
+																	],
+																	"text": "img.onload is triggered when the image finishes loading"
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "listItem",
+													"content": [
+														{
+															"type": "paragraph",
+															"attrs": {
+																"dir": "auto"
+															},
+															"content": [
+																{
+																	"type": "text",
+																	"marks": [
+																		{
+																			"type": "bold"
+																		},
+																		{
+																			"type": "code"
+																		}
+																	],
+																	"text": "ctx.drawImage(img, 0, 0) draws the image onto a canvas at position (0,0)"
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "listItem",
+													"content": [
+														{
+															"type": "paragraph",
+															"attrs": {
+																"dir": "auto"
+															},
+															"content": [
+																{
+																	"type": "text",
+																	"marks": [
+																		{
+																			"type": "bold"
+																		},
+																		{
+																			"type": "code"
+																		}
+																	],
+																	"text": "ctx refers to a canvas context (which must be defined elsewhere in the    code)"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														},
+														{
+															"type": "code"
+														}
+													],
+													"text": "img.src = savedSign;"
+												}
+											]
+										},
+										{
+											"type": "bulletList",
+											"content": [
+												{
+													"type": "listItem",
+													"content": [
+														{
+															"type": "paragraph",
+															"attrs": {
+																"dir": "auto"
+															},
+															"content": [
+																{
+																	"type": "text",
+																	"marks": [
+																		{
+																			"type": "bold"
+																		},
+																		{
+																			"type": "code"
+																		}
+																	],
+																	"text": "This is where your confusion lies"
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "listItem",
+													"content": [
+														{
+															"type": "paragraph",
+															"attrs": {
+																"dir": "auto"
+															},
+															"content": [
+																{
+																	"type": "text",
+																	"marks": [
+																		{
+																			"type": "bold"
+																		},
+																		{
+																			"type": "code"
+																		}
+																	],
+																	"text": "When you set the src property of an image, you're telling it what to display"
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "listItem",
+													"content": [
+														{
+															"type": "paragraph",
+															"attrs": {
+																"dir": "auto"
+															},
+															"content": [
+																{
+																	"type": "text",
+																	"marks": [
+																		{
+																			"type": "bold"
+																		},
+																		{
+																			"type": "code"
+																		}
+																	],
+																	"text": "In this case, savedSign contains image data (likely in base64 format, which looks like a long string of text)"
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "listItem",
+													"content": [
+														{
+															"type": "paragraph",
+															"attrs": {
+																"dir": "auto"
+															},
+															"content": [
+																{
+																	"type": "text",
+																	"marks": [
+																		{
+																			"type": "bold"
+																		},
+																		{
+																			"type": "code"
+																		}
+																	],
+																	"text": "Setting img.src to this data makes the browser interpret it as an image"
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "listItem",
+													"content": [
+														{
+															"type": "paragraph",
+															"attrs": {
+																"dir": "auto"
+															},
+															"content": [
+																{
+																	"type": "text",
+																	"marks": [
+																		{
+																			"type": "bold"
+																		},
+																		{
+																			"type": "code"
+																		}
+																	],
+																	"text": "Once loaded, it triggers the onload function we set up earlier"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														},
+														{
+															"type": "code"
+														}
+													],
+													"text": "If no signature exists: alert(\"there is no saved image\");"
+												}
+											]
+										},
+										{
+											"type": "bulletList",
+											"content": [
+												{
+													"type": "listItem",
+													"content": [
+														{
+															"type": "paragraph",
+															"attrs": {
+																"dir": "auto"
+															},
+															"content": [
+																{
+																	"type": "text",
+																	"marks": [
+																		{
+																			"type": "bold"
+																		},
+																		{
+																			"type": "code"
+																		}
+																	],
+																	"text": "Simply shows a popup message to the user"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										},
+										{
+											"type": "code"
+										}
+									],
+									"text": "The key concept to understand is that savedSign contains the actual image data, not just a reference to it. When a signature is saved to localStorage, it's typically converted to a text representation (base64 string) that looks something like: \"data:image/png;base64,iVBORw0KGgoAAAAN...\""
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										},
+										{
+											"type": "code"
+										}
+									],
+									"text": "When you assign this string to img.src, the browser recognizes this format and converts it back into an actual viewable image."
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aC0lg",
+			"typeName": "shape"
+		},
+		{
+			"x": 2030.212231685748,
+			"y": -49.41539265440929,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:4BfxoIov-rWqtxLOKd4i_",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "l",
+				"w": 499.1779211026246,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Retrieve image functionality explanantions"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aD5In",
+			"typeName": "shape"
+		}
+	]
+}
